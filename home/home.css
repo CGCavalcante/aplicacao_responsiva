@@ -7,10 +7,9 @@ body {
 }
 
 header {
-    background: url('./imagem/header/background-pattern.png') repeat-y;
-    background-position: center;
-    height: auto;
-    width: 100vw;
+    background-image: url('./../imagem/header/background-pattern.png');
+    background-repeat: repeat;
+    background-size: 500px;
 }
 
 .column {
@@ -72,6 +71,36 @@ h6 {
     font-size: medium;
 }
 
+.texto-amarelo {
+    color: #FFC024;
+    font-size: 150%;
+    left: -43%;
+    position: relative;
+}
+
+.texto-paragrafo {
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: medium;
+    width: 22%;
+    z-index: 6;
+    position: relative;
+    left: 23%;
+    margin-top: -20%;
+    margin-bottom: 20%;
+}
+
+.texto-go {
+    color: white;
+    font-weight: 900;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 900%;
+    z-index: 5;
+    position: relative;
+    left: 30%;
+    margin-top: 6%;
+}
+
 .row {
     display: flex;
     justify-content: center;
@@ -112,40 +141,59 @@ h6 {
 }
 
 .button1 {
-    background-color: #DCDCDC;
+    background-color: #C1C2C1;
     margin-top: 5%;
     margin-bottom: 7%;
+    width: 19%;
 }
 
-.image{
-    height: auto;
-    width: auto;
+.button2 {
+    background-color: #C1C2C1;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    width: 19%;
+}
+
+.seta {
+    width: 10%;
+    height: 10%;
+    transform: rotate(270deg);
 }
 
 .imagem1 {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
-    align-items: center;
+    position: absolute;
+    display: block;
+    top: 10%;
+    z-index: 3;
+    height: 90%;
+    width: 90%;
+    left: 5%;
+    object-fit: contain;
 }
 
 .imagem2 {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
-    align-items: center;
+    position: absolute;
+    float: left;
+    top: 10%;
+    left: 25%;
+    z-index: 4;
+}
+
+.imagem3 {
+    position: absolute;
+    float: left;
+    top: 40%;
+    left: 62%;
+    z-index: 5;
 }
 
 .circulo{
     border-radius: 100%;
-    width: 600px;
-    height: 600px;
-    margin: auto;
-    background-color: #B22222;
-    top: 15px;
-    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: #A51B0B;
+    position: absolute;
+    z-index: 2;
+    left: 30%;
+    top: 17%;
 }
