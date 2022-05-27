@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background: url('./imagem/header/background-pattern.png') repeat-y;
+    background-position: center;
+    height: auto;
+    width: 100vw;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5%;
+    text-align: center;
+    background-color: #FAFAED;
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+h6 {
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400px;
+    font-size: medium;
+}
+
+.preco {
+    color: #FF4E42;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.name {
+    color: #1820EF;
+    font-weight: 900;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: x-large;
+}
+
+.descricao {
+    color: #000000;
+    font-weight: 400;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: medium;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 499px) {
+
+    .col-12 {
+        width: 100%;
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+
+    .col-4 {
+        width: 25%;
+        margin-left: 3%;
+        margin-right: 3%;
+        display: inline-block;
+    }
+
+}
+
+.buttons {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 100px;
+}
+
+.button1 {
+    background-color: #DCDCDC;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.image{
+    height: auto;
+    width: auto;
+}
+
+.imagem1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.imagem2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.circulo{
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-color: #B22222;
+    top: 15px;
+    align-items: center;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Front End Test - Ramen GO</title>
+        <meta charset="utf-8" />
+        <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=yes'>
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+
+    </head>
+
+    <header>
+
+        <!-- <img src="/imagem/header/background-pattern.png" alt="BackgroundPattern" class="imagem2"/> -->
+        <div class="circulo">
+            <img src="./../imagem/header/entregadora.svg" alt="RamenGO" class="imagem1"/>
+        </div>
+        
+    </header>
+
+
+  <body>
+        
+    <section>
+
+        <h2>First things first: select your favorite broth.</h2>
+        <h6>It will give the whole flavor on your ramen soup.</h6>
+
+
+        <div class="row" id="broth">
+
+            <div class="col-4 col-12" onClick="selecionarBroth('salt')"  id="salt">
+                <div class="card">
+                    <img src="imagem/icons/salt/inactive.svg">
+                    <p class="name">Salt</p>
+                    <p class="descricao">Simple like the seawater, nothing more</p>
+                    <p class="preco">US$ 10</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-12" onClick="selecionarBroth('shoyu')" id="shoyu">
+                <div class="card">
+                    <img src="imagem/icons/shoyu/inactive.svg">
+                    <p class="name">Shoyu</p>
+                    <p class="descricao">The good old and traditional soy sauce</p>
+                    <p class="preco">US$ 10</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-12" onClick="selecionarBroth('miso')" id="miso">
+                <div class="card">
+                    <img src="imagem/icons/miso/inactive.svg">
+                    <p class="name">Miso</p>
+                    <p class="descricao">Paste made of fermented soybeans</p>
+                    <p class="preco">US$ 12</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>It's time to choose (or not) your meat!</h2>
+        <h6>Some people love, some don't. We have options for all tastes.</h6>
+        
+        <div class="row" id="meat">
+
+            <div class="col-4 col-12" onClick="selecionarMeat('chasu')"  id="chasu">
+                <div class="card">
+                    <img src="imagem/icons/pork/inactive.svg">
+                    <p class="name">Chasu</p>
+                    <p class="descricao">A sliced flavour ful pork meat with a selection of season vegetables.</p>
+                    <p class="preco">US$ 10</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-12" onClick="selecionarMeat('yasai_vegetarian')" id="yasai_vegetarian">
+                <div class="card">
+                    <img src="imagem/icons/yasai/inactive.svg">
+                    <p class="name">Yasai Vegetarian </p>
+                    <p class="descricao">A delicious vegetarian lamen with a selection of season vegetables.</p>
+                    <p class="preco">US$ 10</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-12" onClick="selecionarMeet('karaague')" id="karaague">
+                <div class="card">
+                    <img src="imagem/icons/chicken/inactive.svg">
+                    <p class="name">Karaague</p>
+                    <p class="descricao">Three units of fried chicken, moyashi, ajitama egg and other vegetables</p>
+                    <p class="preco">US$ 12</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="row">
+            <button class="buttons button1">Place myr order</button>
+        </div>
+
+    </footer>
+    
+  </body>
+
+</html>
