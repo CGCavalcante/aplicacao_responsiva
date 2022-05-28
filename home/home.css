@@ -130,7 +130,6 @@ h6 {
 .buttons {
     display: inline-block;
     padding: 15px 25px;
-    font-size: 24px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -138,20 +137,26 @@ h6 {
     color: #FFFFFF;
     border: none;
     border-radius: 100px;
+    font-size: small;
+    text-align: left;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .button1 {
     background-color: #C1C2C1;
     margin-top: 5%;
     margin-bottom: 7%;
-    width: 19%;
+    width: 220px;
+    
 }
 
 .button2 {
-    background-color: #C1C2C1;
-    margin-top: 5%;
-    margin-bottom: 7%;
-    width: 19%;
+    background-color: #1820EF;
+    top: 77%;
+    left: 16%;
+    width: 220px;
+    position: absolute;
+
 }
 
 .seta {

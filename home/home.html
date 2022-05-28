@@ -20,7 +20,9 @@
             <div class="circulo"></div>
             <img id ="entregadora" src="./../imagem/header/entregadora.png" alt="RamenGO" class="imagem1"/>
             <img src="./../imagem/header/balao-amarelo.png" alt="BalaoAmarelo" class="imagem3">
-            <button class="buttons">ORDER NOW</button>
+            <button class="buttons button2">ORDER NOW
+                <img src="./../imagem/seta_branca.png" alt="seta" class="seta" align="right">
+            </button>
         </div>
 
 
@@ -38,30 +40,30 @@
 
         <div class="row" id="broth">
 
-            <div class="col-4 col-12" onClick="selecionarBroth('salt')"  id="salt">
-                <div class="card">
-                    <img src="./../imagem/icons/salt/inactive.svg">
-                    <p class="name">Salt</p>
-                    <p class="descricao">Simple like the seawater, nothing more</p>
-                    <p class="preco">US$ 10</p>
+            <div class="col-4 col-12" onClick="selecionarBroth('salt')" id="salt">
+                <div class="card" id="salt-card">
+                    <img src="./../imagem/icons/salt/inactive.svg" id="salt-img">
+                    <p id="salt-p1" class="name">Salt</p>
+                    <p id="salt-p2" class="descricao">Simple like the seawater, nothing more</p>
+                    <p id="salt-p3" class="preco">US$ 10</p>
                 </div>
             </div>
 
             <div class="col-4 col-12" onClick="selecionarBroth('shoyu')" id="shoyu">
-                <div class="card">
-                    <img src="./../imagem/icons/shoyu/inactive.svg">
-                    <p class="name">Shoyu</p>
-                    <p class="descricao">The good old and traditional soy sauce</p>
-                    <p class="preco">US$ 10</p>
+                <div class="card" id="shoyu-card">
+                    <img src="./../imagem/icons/shoyu/inactive.svg" id="shoyu-img">
+                    <p id="shoyu-p1" class="name">Shoyu</p>
+                    <p id="shoyu-p2" class="descricao">The good old and traditional soy sauce</p>
+                    <p id="shoyu-p3" class="preco">US$ 10</p>
                 </div>
             </div>
 
             <div class="col-4 col-12" onClick="selecionarBroth('miso')" id="miso">
-                <div class="card">
-                    <img src="./../imagem/icons/miso/inactive.svg">
-                    <p class="name">Miso</p>
-                    <p class="descricao">Paste made of fermented soybeans</p>
-                    <p class="preco">US$ 12</p>
+                <div class="card" id="miso-card">
+                    <img src="./../imagem/icons/miso/inactive.svg" id="miso-img">
+                    <p id="miso-p1" class="name">Miso</p>
+                    <p id="miso-p2" class="descricao">Paste made of fermented soybeans</p>
+                    <p id="miso-p3" class="preco">US$ 12</p>
                 </div>
             </div>
 
@@ -77,29 +79,29 @@
         <div class="row" id="meat">
 
             <div class="col-4 col-12" onClick="selecionarMeat('chasu')"  id="chasu">
-                <div class="card">
-                    <img src="./../imagem/icons/pork/inactive.svg">
-                    <p class="name">Chasu</p>
-                    <p class="descricao">A sliced flavour ful pork meat with a selection of season vegetables.</p>
-                    <p class="preco">US$ 10</p>
+                <div class="card" id="chasu-card">
+                    <img src="./../imagem/icons/chasu/inactive.svg" id="chasu-img">
+                    <p id="chasu-p1" class="name">Chasu</p>
+                    <p id="chasu-p2" class="descricao">A sliced flavour ful chasu meat with a selection of season vegetables.</p>
+                    <p id="chasu-p3" class="preco">US$ 10</p>
                 </div>
             </div>
 
             <div class="col-4 col-12" onClick="selecionarMeat('yasai_vegetarian')" id="yasai_vegetarian">
-                <div class="card">
-                    <img src="./../imagem/icons/yasai/inactive.svg">
-                    <p class="name">Yasai Vegetarian </p>
-                    <p class="descricao">A delicious vegetarian lamen with a selection of season vegetables.</p>
-                    <p class="preco">US$ 10</p>
+                <div class="card" id="yasai_vegetarian-card">
+                    <img src="./../imagem/icons/yasai_vegetarian/inactive.svg" id="yasai_vegetarian-img">
+                    <p id="yasai_vegetarian-p1" class="name">Yasai Vegetarian </p>
+                    <p id="yasai_vegetarian-p2" class="descricao">A delicious vegetarian lamen with a selection of season vegetables.</p>
+                    <p id="yasai_vegetarian-p3" class="preco">US$ 10</p>
                 </div>
             </div>
 
-            <div class="col-4 col-12" onClick="selecionarMeet('karaague')" id="karaague">
-                <div class="card">
-                    <img src="./../imagem/icons/chicken/inactive.svg">
-                    <p class="name">Karaague</p>
-                    <p class="descricao">Three units of fried chicken, moyashi, ajitama egg and other vegetables</p>
-                    <p class="preco">US$ 12</p>
+            <div class="col-4 col-12" onClick="selecionarMeat('karaague')" id="karaague">
+                <div class="card" id="karaague-card">
+                    <img src="./../imagem/icons/karaague/inactive.svg" id="karaague-img">
+                    <p id="karaague-p1" class="name">Karaague</p>
+                    <p id="karaague-p2" class="descricao">Three units of fried chicken, moyashi, ajitama egg and other vegetables</p>
+                    <p id="karaague-p3" class="preco">US$ 12</p>
                 </div>
             </div>
 
@@ -110,8 +112,8 @@
     <footer>
 
         <div class="row">
-            <button class="buttons button1">Place my order
-                <img src="./../imagem/seta_branca.png" alt="seta" class="seta">
+            <button class="buttons button1" onClick="verificarItensSelecionados()">Place my order
+                <img src="./../imagem/seta_branca.png" alt="seta" class="seta" align="right">
             </button>
         </div>
 
