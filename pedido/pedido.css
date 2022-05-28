@@ -15,18 +15,16 @@ h6 {
     text-align: center;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: large;
-    margin-top: 0;
-    margin-bottom: 5%;
     color: black;
+    margin-top: 0;
 }
 
 h2 {
     text-align: center;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: xx-large;
-    margin-top: 0;
-    margin-bottom: 5%;
     color: #FF4E42;
+    margin-bottom: 0;
 }
 
 .texto-vermelho {
@@ -46,14 +44,11 @@ h2 {
 .texto-direita {
     width: 50%;
     float: right;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 .centralizar {
-    margin-top: auto;
-    margin-bottom: auto;
+    text-align: center;
+    margin-top: 50%;
 }
 
 .container {
@@ -77,8 +72,6 @@ h2 {
     text-align: left;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     background-color: #1820EF;
-    margin-top: 5%;
-    margin-bottom: 7%;
     width: 220px;
 }
 
