@@ -40,7 +40,8 @@ h2 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 900;
     font-size: xx-large;
-    margin-top: 50px;
+    margin-top: 10%;
+    margin-bottom: 0;
 }
 
 h6 {
@@ -48,6 +49,8 @@ h6 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 400px;
     font-size: medium;
+    margin-top: 0;
+    margin-bottom: 5%;
 }
 
 .preco {
@@ -147,7 +150,7 @@ h6 {
     margin-top: 5%;
     margin-bottom: 7%;
     width: 220px;
-    
+    font-size: small;
 }
 
 .button2 {

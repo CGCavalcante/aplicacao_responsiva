@@ -85,6 +85,9 @@ function consultarPedido() {
 
     let url = 'https://front-br-challenges.web.app/api/v1/ramen-go/?meat=' + this.selectedMeet + '&broth=' + this.selectedBroth
     let retorno = this.consultar(url);
+
+    window.close()
+    window.open("./../pedido/pedido.html", retorno);
 }
 
 
