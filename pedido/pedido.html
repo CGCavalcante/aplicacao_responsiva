@@ -9,26 +9,29 @@
         <link rel="stylesheet" href="pedido.css" />
     </head>
     <body>
-       
-        <header class="pedido-feito">
-            <h6 class="texto-vermelho" >ramenGO!</h6>
-            <img src="./../imagem/api/chasu.png" alt="pedido-sucesso" class="img-pedido">
-            <h6>Your Order:</h6>
-            <h2></h2>
-        </header>
 
-        <section>
-            <div class="texto-direita">
-                <h2>Your order is being prepared</h2>
-                <h6>Hold on, when you least expect you will be eating your rámen</h6>
-            </div>
-            
-            <div class="row">
-                <button class="buttons button1" onClick="verificarItensSelecionados()">PLACE NEW ORDER
-                    <img src="./../imagem/seta_branca.png" alt="seta" class="seta" align="right">
-                </button>
-            </div>
+        <div class="container">
+    
+            <section class="pedido-feito">
+                <h6 class="texto-vermelho" >ramenGO!</h6>
+                <img src="./../imagem/api/chasu.png" alt="pedido-sucesso" class="img-pedido">
+                <h6>Your Order:</h6>
+                <h2></h2>
+            </section>
+    
+            <section class="texto-direita">
 
-        </section>
+                <div class="centralizar">
+                    <h2>Your order is being prepared</h2>
+                    <h6>Hold on, when you least expect you will be eating your rámen</h6>
+                
+                    <button class="buttons button1" onClick="verificarItensSelecionados()">PLACE NEW ORDER
+                        <img src="./../imagem/seta_amarela.png" alt="seta" class="seta" align="right">
+                    </button>
+                </div>
+    
+            </section>
+
+        </div>
     </body>
 </html>
