@@ -12,6 +12,11 @@ header {
     background-size: 500px;
     width: 50vw;
     height: 50vw;
+    float: left;
+}
+
+section {
+    float: right;
 }
 
 h6 {
@@ -20,7 +25,7 @@ h6 {
     font-size: large;
     margin-top: 0;
     margin-bottom: 5%;
-    color: white;
+    color: black;
 }
 
 h2 {
@@ -29,5 +34,60 @@ h2 {
     font-size: xx-large;
     margin-top: 0;
     margin-bottom: 5%;
+    color: #FF4E42;
+}
+
+.texto-vermelho {
+    color: #FF4E42;
+    font-size: 150%;
+    left: -39%;
+    top: 3%;
+    position: relative;
+}
+
+.texto-amarelo {
     color: #FFC024;
+    font-size: 150%;
+    left: -43%;
+    position: relative;
+}
+
+.img-pedido {
+    top: 3%;
+    left: 20%;
+    position: relative;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 100px;
+    font-size: small;
+    text-align: left;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.button1 {
+    background-color: #1820EF;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    width: 220px;
+    font-size: small;
+}
+
+.seta {
+    width: 10%;
+    height: 10%;
+    transform: rotate(270deg);
+}
+
+.texto-direita {
+    text-align: center;
+
 }
