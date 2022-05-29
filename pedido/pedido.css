@@ -7,8 +7,7 @@ body {
 }
 
 section {
-    width: 50vmax;
-    height: 50vmax;
+    height: 100vh;
 }
 
 h6 {
@@ -28,19 +27,28 @@ h2 {
 }
 
 .img-pedido {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover;
-    object-position: 10px 10px;
+    width: 100%;
 }
 
+.icon{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
 
+}
 
 .texto-vermelho {
     color: #FF4E42;
     font-size: 150%;
+    text-align: center;
+}
+
+section.pedido-feito h6.texto-vermelho {
     position: relative;
+    left: 2%;
+    top: 2%;
 }
 
 .pedido-feito {
@@ -76,8 +84,10 @@ h2 {
 }
 
 .container {
-    position:relative;
-    width:100%;
+   /*  position:relative;
+    width:100%; */
+
+    display: flex;
 }
 
 .buttons {
@@ -93,7 +103,56 @@ h2 {
     width: 220px;
 }
 
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .seta {
     width: 15%;
     height: 2%;
+}
+
+@media screen and (max-width: 499px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .pedido-feito {
+        width: 100%;
+    }
+
+    .texto-direita {
+        width: 100%;
+    }
+
+    section.pedido-feito h6.texto-vermelho {
+        position: revert;
+        left: auto;
+        right: auto;
+    }
+    
+    h6 {
+        font-size: medium;
+    }
+
+    .button1 {
+        margin-top: 10%;
+        float:none
+    }
+
+    .buttons {
+        font-size: large;
+        text-align: left;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        background-color: #1820EF;
+        width: 250px;
+    }
+
+    .centralizar {
+        margin-top: 100%;
+        float:none
+    }
+
 }

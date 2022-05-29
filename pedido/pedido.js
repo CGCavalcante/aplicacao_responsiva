@@ -8,7 +8,7 @@ function novoPedido() {
 
 document.addEventListener("DOMContentLoaded",
     function () {
-        let listaRetorno = window.location.toString().split('?');
+        /* let listaRetorno = window.location.toString().split('?');
         let listaParam = listaRetorno[1].split('&');
         let paramentros = [];
 
@@ -17,8 +17,9 @@ document.addEventListener("DOMContentLoaded",
         });
 
         selectedBroth = paramentros[0];
-        selectedMeat = paramentros[1];
-
+        selectedMeat = paramentros[1]; */
+        selectedBroth = 'miso'
+        selectedMeat = 'chasu'
         let url = 'https://front-br-challenges.web.app/api/v1/ramen-go/?meat=' + selectedMeat + '&broth=' + selectedBroth;
         consultar( url )
     }
