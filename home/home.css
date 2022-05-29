@@ -1,13 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
-
-
 * {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    margin: 0;
     border: 0;
     box-sizing: border-box;
 }
@@ -61,9 +55,9 @@ body {
     margin-top: 10%;
 }
 
-.list-cards section.card img {
+/* .list-cards section.card img {
     width: 100%;
-}
+} */
 
 .list-cards section.card h3 {
     font-size: 100%;
@@ -95,8 +89,8 @@ body {
 
 .button2 {
     background-color: #1820EF;
-    top: 77%;
-    left: 16%;
+    top: 74%;
+    left: 16.5%;
     width: 220px;
     position: absolute;
     
@@ -112,6 +106,7 @@ body {
     z-index: 3;
     position: absolute;
     top: 5%;
+    width: 43%;
 }
 
 .imagem2 {
@@ -125,15 +120,16 @@ body {
     position: absolute;
     float: left;
     top: 40%;
-    left: 61%;
+    left: 64.7%;
     z-index: 5;
 }
 
 .circulo{
     border-radius: 100%;
-    width: 565px;
-    height: 565px;
-    background-color: #A51B0B;
+    margin-top: -2%;
+    width: 510px;
+    height: 510px;
+    background-color: #8B0000;
     z-index: 2;
 }
 
@@ -193,31 +189,36 @@ h6 {
 
 .texto-amarelo {
     color: #FFC024;
-    font-size: 150%;
-    left: -43%;
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 130%;
+    left: -43.9%;
     position: relative;
+    font-weight: normal;
+    padding-top: 1.5%;
 }
 
 .texto-paragrafo {
     color: white;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: medium;
-    width: 22%;
+    font-style: normal;
+    width: 15%;
     z-index: 6;
     position: relative;
-    left: 23%;
-    margin-top: -20%;
-    margin-bottom: 20%;
+    left: 17.2%;
+    margin-top: -2.5%;
+    font-weight: normal;
 }
 
 .texto-go {
     color: white;
     font-weight: 900;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 900%;
+    font-size: 850%;
     z-index: 5;
-    left: 30%;
-    margin-top: 6%;
+    position: relative;
+    margin-top: -30.9%;
+    left: 22%;
 }
 
 .row {
