@@ -9,116 +9,111 @@
 
     </head>
 
-    <header>
+    <body>
+        <header>
 
-        <h6 class="texto-amarelo" >ramenGO!</h6>
-        
-         <div style="display: inline-block">
-            <img src="./../imagem/header/balao-azul.png" alt="BalaoAzul" class="imagem2">
-            <p class="texto-go">GO!</p>
-            <p class="texto-paragrafo">Enjoy a good ramen in the comfort of your house. Create your own ramen and choose your favorite flavour combination!</p>
-            <div class="circulo"></div>
-            <img id ="entregadora" src="./../imagem/header/entregadora.png" alt="RamenGO" class="imagem1"/>
-            <img src="./../imagem/header/balao-amarelo.png" alt="BalaoAmarelo" class="imagem3">
-            <button class="buttons button2">ORDER NOW
-                <img src="./../imagem/seta_branca.png" alt="seta" class="seta" align="right">
-            </button>
+            <h6 class="texto-amarelo" >ramenGO!</h6>
+            
+            <div style="display: inline-block">
+                <figure class="figure-header">
+                    <img src="./../imagem/header/balao-azul.png" alt="BalaoAzul" class="imagem2">
+                    <img id ="entregadora" src="./../imagem/header/entregadora.png" alt="RamenGO" class="imagem1"/>
+                    <img src="./../imagem/header/balao-amarelo.png" alt="BalaoAmarelo" class="imagem3">
+                    <div class="circulo"></div>
+                </figure>
+                <h1 class="texto-go">GO!</h1>
+                <h3 class="texto-paragrafo">Enjoy a good ramen in the comfort of your house. Create your own ramen and choose your favorite flavour combination!</h3>
+                <button class="buttons button2">ORDER NOW
+                    <img src="./../imagem/seta_branca.png" alt="seta" class="seta" align="right">
+                </button>
+            </div>
+
+
+            
+        </header>
+
+        <div>
+            <h2>First things first: select your favorite broth.</h2>
+            <h6>It will give the whole flavor on your ramen soup.</h6>
         </div>
 
+        <div class="list-cards">
 
-        
-    </header>
-
-
-  <body>
-        
-    <section>
-
-        <h2>First things first: select your favorite broth.</h2>
-        <h6>It will give the whole flavor on your ramen soup.</h6>
-
-
-        <div class="row" id="broth">
-
-            <div class="col-4 col-12" onClick="selecionarBroth('salt')" id="salt">
-                <div class="card" id="salt-card">
+            <section onClick="selecionarBroth('salt')" class="card" id="salt-card">
+                <div class="icon">
                     <img src="./../imagem/icons/salt/inactive.svg" id="salt-img">
-                    <p id="salt-p1" class="name">Salt</p>
-                    <p id="salt-p2" class="descricao">Simple like the seawater, nothing more</p>
-                    <p id="salt-p3" class="preco">US$ 10</p>
                 </div>
-            </div>
+                <h3 id="salt-p1" class="name">Salt</h3>
+                <span id="salt-p2" class="descricao">Simple like the seawater, nothing more</span>
+                <h3 id="salt-p3" class="preco">US$ 10</h3>
+            </section>
 
-            <div class="col-4 col-12" onClick="selecionarBroth('shoyu')" id="shoyu">
-                <div class="card" id="shoyu-card">
+            <section onClick="selecionarBroth('shoyu')"  class="card" id="shoyu-card">
+                <div class="icon">
                     <img src="./../imagem/icons/shoyu/inactive.svg" id="shoyu-img">
-                    <p id="shoyu-p1" class="name">Shoyu</p>
-                    <p id="shoyu-p2" class="descricao">The good old and traditional soy sauce</p>
-                    <p id="shoyu-p3" class="preco">US$ 10</p>
                 </div>
-            </div>
-
-            <div class="col-4 col-12" onClick="selecionarBroth('miso')" id="miso">
-                <div class="card" id="miso-card">
+                <h3 id="shoyu-p1" class="name">Shoyu</h3>
+                <span id="shoyu-p2" class="descricao">The good old and traditional soy sauce</span>
+                <h3 id="shoyu-p3" class="preco">US$ 10</hshoyu3>
+            </section>
+            
+            <section onClick="selecionarBroth('miso')"  class="card" id="miso-card">
+                <div class="icon">
                     <img src="./../imagem/icons/miso/inactive.svg" id="miso-img">
-                    <p id="miso-p1" class="name">Miso</p>
-                    <p id="miso-p2" class="descricao">Paste made of fermented soybeans</p>
-                    <p id="miso-p3" class="preco">US$ 12</p>
                 </div>
-            </div>
+                <h3 id="miso-p1" class="name">Miso</h3>
+                <span id="miso-p2" class="descricao">Paste made of fermented soybeans</span>
+                <h3 id="miso-p3" class="preco">US$ 10</h3>
+            </section>
 
         </div>
 
-    </section>
+        <div >
+            <h2>It's time to choose (or not) your meat!</h2>
+            <h6>Some people love, some don't. We have options for all tastes.</h6>
+        </div>
 
-    <section>
+        <div class="list-cards">
 
-        <h2>It's time to choose (or not) your meat!</h2>
-        <h6>Some people love, some don't. We have options for all tastes.</h6>
-        
-        <div class="row" id="meat">
-
-            <div class="col-4 col-12" onClick="selecionarMeat('chasu')"  id="chasu">
-                <div class="card" id="chasu-card">
+            <section onClick="selecionarMeat('chasu')" class="card" id="chasu-card">
+                <div class="icon">
                     <img src="./../imagem/icons/chasu/inactive.svg" id="chasu-img">
-                    <p id="chasu-p1" class="name">Chasu</p>
-                    <p id="chasu-p2" class="descricao">A sliced flavour ful chasu meat with a selection of season vegetables.</p>
-                    <p id="chasu-p3" class="preco">US$ 10</p>
                 </div>
-            </div>
+                <h3 id="chasu-p1" class="name">Chasu</h3>
+                <span id="chasu-p2" class="descricao">A sliced flavour ful chasu meat with a selection of season vegetables.</span>
+                <h3 id="chasu-p3" class="preco">US$ 10</h3>
+            </section>
 
-            <div class="col-4 col-12" onClick="selecionarMeat('yasai_vegetarian')" id="yasai_vegetarian">
-                <div class="card" id="yasai_vegetarian-card">
+            <section  onClick="selecionarMeat('yasai_vegetarian')" class="card" id="yasai_vegetarian-card">
+                <div class="icon">
                     <img src="./../imagem/icons/yasai_vegetarian/inactive.svg" id="yasai_vegetarian-img">
-                    <p id="yasai_vegetarian-p1" class="name">Yasai Vegetarian </p>
-                    <p id="yasai_vegetarian-p2" class="descricao">A delicious vegetarian lamen with a selection of season vegetables.</p>
-                    <p id="yasai_vegetarian-p3" class="preco">US$ 10</p>
                 </div>
-            </div>
-
-            <div class="col-4 col-12" onClick="selecionarMeat('karaague')" id="karaague">
-                <div class="card" id="karaague-card">
+                <h3 id="yasai_vegetarian-p1" class="name">Yasai Vegetarian </h3>
+                <span id="yasai_vegetarian-p2" class="descricao">A delicious vegetarian lamen with a selection of season vegetables.</span>
+                <h3 id="yasai_vegetarian-p3" class="preco">US$ 10</h3>
+            </section>
+            
+            <section onClick="selecionarMeat('karaague')" class="card" id="karaague-card">
+                <div class="icon">
                     <img src="./../imagem/icons/karaague/inactive.svg" id="karaague-img">
-                    <p id="karaague-p1" class="name">Karaague</p>
-                    <p id="karaague-p2" class="descricao">Three units of fried chicken, moyashi, ajitama egg and other vegetables</p>
-                    <p id="karaague-p3" class="preco">US$ 12</p>
                 </div>
+                <h3 id="karaague-p1" class="name">Karaague</h3>
+                <span id="karaague-p2" class="descricao">Three units of fried chicken, moyashi, ajitama egg and other vegetables</span>
+                <h3 id="karaague-p3" class="preco">US$ 12</h3>
+            </section>
+
+        </div>
+
+        <footer>
+
+            <div class="row">
+                <button class="buttons button1" onClick="verificarItensSelecionados()">PLACE MY ORDER
+                    <img src="./../imagem/seta_branca.png" alt="seta" class="seta" align="right">
+                </button>
             </div>
 
-        </div>
-
-    </section>
-
-    <footer>
-
-        <div class="row">
-            <button class="buttons button1" onClick="verificarItensSelecionados()">PLACE MY ORDER
-                <img src="./../imagem/seta_branca.png" alt="seta" class="seta" align="right">
-            </button>
-        </div>
-
-    </footer>
+        </footer>
     
-  </body>
+    </body>
 
 </html>

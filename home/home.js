@@ -1,8 +1,8 @@
-selectedBroth = '';
-selectedMeet = '';
-habilitarBotao = false;
-listaBroth = {'salt': false, 'shoyu': false, 'miso': false};
-listaMeat = {'chasu': false, 'yasai_vegetarian': false, 'karaague': false}
+var selectedBroth = '';
+var selectedMeet = '';
+var habilitarBotao = false;
+var listaBroth = {'salt': false, 'shoyu': false, 'miso': false};
+var listaMeat = {'chasu': false, 'yasai_vegetarian': false, 'karaague': false}
 
 function selecionarBroth( event ) {
 
@@ -63,31 +63,18 @@ function selecionarMeat( event ) {
 function verificarItensSelecionados() {
 
     if ( this.selectedBroth != '' && this.selectedMeet != '' ) {
-        this.consultarPedido();
+
+        window.close();    
+        window.open("./../pedido/pedido.html?broth=" + selectedBroth + "&meat=" + selectedMeet );
     } else {
         alert("Select a broth and a meat, please!")
     }
     
 }
 
-function consultar( url ) {
-
-    let request = new XMLHttpRequest();
-
-    request.open("GET", url, false);
-    request.send();
-    return JSON.parse(request.responseText);
-
-}
-
-
-function consultarPedido() {
-
-    let url = 'https://front-br-challenges.web.app/api/v1/ramen-go/?meat=' + this.selectedMeet + '&broth=' + this.selectedBroth
-    let retorno = this.consultar(url);
-
-    window.close()
-    window.open("./../pedido/pedido.html", retorno);
+function novoPedido() {
+    this.selectedMeet = '';
+    this.selecionarBroth = '';
 }
 
 

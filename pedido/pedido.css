@@ -27,6 +27,16 @@ h2 {
     margin-bottom: 0;
 }
 
+.img-pedido {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: 10px 10px;
+}
+
+
+
 .texto-vermelho {
     color: #FF4E42;
     font-size: 150%;
@@ -41,6 +51,13 @@ h2 {
     background-size: 500px;
 }
 
+.desc-pedido {
+    color: #FFC024;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .texto-direita {
     width: 50%;
     float: right;
@@ -51,15 +68,16 @@ h2 {
     margin-top: 50%;
 }
 
+.your-order {
+    position: relative;
+    top: 20px;
+    color: white;
+    text-align: center;
+}
+
 .container {
     position:relative;
     width:100%;
-}
-
-.img-pedido {
-    top: 3%;
-    left: 20%;
-    position: relative;
 }
 
 .buttons {

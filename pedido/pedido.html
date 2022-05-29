@@ -13,10 +13,15 @@
         <div class="container">
     
             <section class="pedido-feito">
-                <h6 class="texto-vermelho" style="left: -35%">ramenGO!</h6>
-                <img src="./../imagem/api/chasu.png" alt="pedido-sucesso" class="img-pedido">
-                <h6  style="color:white">Your Order:</h6>
-                <h2></h2>
+
+                <h6 class="texto-vermelho" style="left: -35%; margin: 0px 0px 0px">ramenGO!</h6>
+
+                <div>
+                    <img id="image-pedido" class="img-pedido" alt="pedido-sucesso">                
+                    <h6  class="your-order">Your Order:</h6>
+                    <h2 id="desc-pedido" class="desc-pedido"></h2>
+                </div>
+
             </section>
     
             <section class="texto-direita">
@@ -25,7 +30,7 @@
                     <h2>Your order is being prepared</h2>
                     <h6>Hold on, when you least expect you will be eating your rámen</h6>
                 
-                    <button class="buttons button1" onClick="verificarItensSelecionados()">PLACE NEW ORDER
+                    <button class="buttons button1" onclick="novoPedido()">PLACE NEW ORDER
                         <img src="./../imagem/seta_amarela.png" alt="seta" class="seta" align="right">
                     </button>
                 </div>
