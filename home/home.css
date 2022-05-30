@@ -90,7 +90,7 @@ body {
 .button2 {
     background-color: #1820EF;
     top: 70.7%;
-    left: 21%;
+    left: 18.5%;
     width: 200px;
     position: absolute;
     
@@ -104,9 +104,9 @@ body {
 .imagem1 {
     z-index: 3;
     position: absolute;
-    top: 7%;
-    width: 38%;
-    left: 31.6%;
+    top: 5.9%;
+    width: 40%;
+    left: 31%;
 }
 
 .imagem2 {
@@ -121,16 +121,16 @@ body {
     position: absolute;
     float: left;
     top: 36%;
-    left: 63.3%;
+    left: 64%;
     z-index: 5;
     width: 6.5%;
 }
 
 .circulo{
     border-radius: 100%;
-    margin-top: -2%;
-    width: 510px;
-    height: 510px;
+    margin-top: -3%;
+    width: 470px;
+    height: 470px;
     background-color: #8B0000;
     z-index: 2;
     position: absolute;
@@ -205,23 +205,33 @@ h6 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: medium;
     font-style: normal;
-    width: 13%;
+    width: 15%;
     z-index: 6;
     position: relative;
-    left: 21%;
-    margin-top: 29%;
+    left: 18.9%;
+    margin-top: -3%;
     font-weight: normal;
+}
+
+.fraseHeader{
+    font-size: 40px;
+    left: 18.4%;
+    top: -7.5%;
+    border-radius: nullpx;
+    color: #FFC024;   
+    font-weight: bold;
+    position: absolute; 
 }
 
 .texto-go {
     color: white;
-    font-weight: 900;
+    font-weight: 880;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 850%;
     z-index: 5;
     position: relative;
-    margin-top: -25.8%;
-    left: 23.7%;
+    margin-top: 4.2%;
+    left: 23.8%;
 }
 
 .row {
