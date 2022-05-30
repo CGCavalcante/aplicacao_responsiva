@@ -89,9 +89,9 @@ body {
 
 .button2 {
     background-color: #1820EF;
-    top: 74%;
-    left: 16.5%;
-    width: 220px;
+    top: 70.7%;
+    left: 21%;
+    width: 200px;
     position: absolute;
     
 }
@@ -105,23 +105,26 @@ body {
 .imagem1 {
     z-index: 3;
     position: absolute;
-    top: 5%;
-    width: 43%;
+    top: 7%;
+    width: 38%;
+    left: 31.6%;
 }
 
 .imagem2 {
     position: absolute;
-    top: 6%;
-    left: 25%;
+    top: 7.5%;
+    left: 30%;
     z-index: 4;
+    width: 6.5%;
 }
 
 .imagem3 {
     position: absolute;
     float: left;
-    top: 40%;
-    left: 64.7%;
+    top: 36%;
+    left: 63.3%;
     z-index: 5;
+    width: 6.5%;
 }
 
 .circulo{
@@ -131,6 +134,7 @@ body {
     height: 510px;
     background-color: #8B0000;
     z-index: 2;
+    position: absolute;
 }
 
 .column {
@@ -202,11 +206,11 @@ h6 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: medium;
     font-style: normal;
-    width: 15%;
+    width: 13%;
     z-index: 6;
     position: relative;
-    left: 17.2%;
-    margin-top: -2.5%;
+    left: 21%;
+    margin-top: 29%;
     font-weight: normal;
 }
 
@@ -217,8 +221,8 @@ h6 {
     font-size: 850%;
     z-index: 5;
     position: relative;
-    margin-top: -30.9%;
-    left: 22%;
+    margin-top: -25.8%;
+    left: 23.7%;
 }
 
 .row {
@@ -259,63 +263,72 @@ h6 {
     }
 
     h6.texto-amarelo {
-        margin-left: 0;
-        margin-bottom: 0;
-        left: auto;
+        margin-left: 88%;
         right: auto;
         top: 1%;
+        text-align: center;
+    }
+
+    .texto-go {
+        position: relative;
+        margin-top: -25.8%;
+        left: 20.7%;
     }
     
     .imagem1 {
-        width: 100%;
-        left: -10%;
-        top: 9%;
+        width: 62%;
+        left: 26.5%;
+        top: 7%;
     }
 
     .imagem2 {
-        top: 10%;
-        left: 16%;
+        margin-top: 1%;
+        left: 28%;
         z-index: 4;
-        width: 15%;
+        width: 11%;
     }
     
     .imagem3 {
-        top: 29%;
-        left: 90%;
+        margin-top: 62%;
+        right: 80%;
         z-index: 5;
-        width: 15%;
+        width: 11%;
     }
 
     .circulo {
-        margin-left: auto;
-        margin-right: auto;
-        width: 40vh;
-        height: 40vh;
-        margin-top: 15%;
+        /* margin-left: auto;
+        margin-right: auto; */
+        width: 220px;
+        height: 220px;
+        margin-top: 1%;
+        left: 8.5%;
+        position: relative;
+
+        
     }
 
-    .posicao-circulo {
+    /* .posicao-circulo {
         display: flex;
         justify-content: center;
-    }
+    } */
 
     .texto-go {
         z-index: 5;
         align-items: center;
-        margin-top: 10%;
-        width: 10%;
+        margin-top: 5%;
+        width: 2%;
+        font-size: 100px;
+        left: 33%;
         
     }
 
     .texto-paragrafo {
-        width: 50%;
+        width: 78%;
         z-index: 6;
         align-items: center;
+        left: 19%;
+        margin-top: -5%;
         text-align: center;
-        left: auto;
-        right: auto;
-        top: 50%;
-        padding: 0 0 0 0;
     }
 
     .button2 {
